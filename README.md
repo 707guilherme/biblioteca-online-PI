@@ -5,11 +5,11 @@ Um sistema web para gerenciar livros, desenvolvido como parte do Projeto Integra
 🛠️ Em desenvolvimento
 
 ## 🛠️ Tecnologias Utilizadas
-- HTML
-- CSS
-- JavaScript
-- MySQL
-- JDBC
+- Frontend: HTML, CSS, JavaScript
+- Backend: Java (JSP) 
+- Banco de Dados: MySQL
+- Servidor de Aplicação: Apache Tomcat
+- JDBC: Conexão com o banco de dados utilizando JDBC
 
 ## 🎯 Objetivo do Software
 Permitir a visualização, cadastro e busca de livros de forma prática e organizada.
