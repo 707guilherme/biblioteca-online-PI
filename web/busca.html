@@ -17,7 +17,7 @@
     </header>
     <main>
         <h2>Buscar Livro</h2>
-        <form id="form-busca">
+        <form id="form-busca" onsubmit="return validarBusca()">
             <label for="busca">Digite o título ou autor:</label>
             <input type="text" id="busca" name="busca" required>
             <button type="submit">Buscar</button>
@@ -31,7 +31,6 @@
                 </tr>
             </thead>
             <tbody id="resultado-busca">
-                <!-- Resultados da busca aparecerão aqui -->
             </tbody>
         </table>
     </main>
