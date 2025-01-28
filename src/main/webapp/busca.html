@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Online - Busca</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>📚 Biblioteca Online</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="cadastro.html">Cadastrar Livro</a>
+            <a href="busca.html">Buscar Livro</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Buscar Livro</h2>
+        <form id="form-busca" onsubmit="return validarBusca()">
+            <label for="busca">Digite o título ou autor:</label>
+            <input type="text" id="busca" name="busca" required>
+            <button type="submit">Buscar</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Autor</th>
+                    <th>Ano</th>
+                </tr>
+            </thead>
+            <tbody id="resultado-busca">
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>📚 Biblioteca Online - Todos os direitos reservados</p>
+        <p>Desenvolvido como parte do Projeto Integrador do curso de Análise e Desenvolvimento de Sistemas</p>
+        <p>Contato: contato@bibliotecaonline.com</p>
+    </footer>
+    <script src="js/busca.js"></script>
+</body>
+</html>
