@@ -1,2 +1,4 @@
-com\mycompany\biblioteca_onilne\JakartaRestConfiguration.class
-com\mycompany\biblioteca_onilne\resources\JakartaEE8Resource.class
+com\mycompany\bibliotecaonline\controller\LivroController.class
+com\mycompany\bibliotecaonline\BibliotecaApplication.class
+com\mycompany\bibliotecaonline\model\Livro.class
+com\mycompany\bibliotecaonline\repository\LivroRepository.class

@@ -8,7 +8,7 @@ Um sistema web para gerenciar livros, desenvolvido como parte do Projeto Integra
 - Frontend: HTML, CSS, JavaScript
 - Backend: Java
 - Banco de Dados: MySQL
-- Servidor de Aplicação: Apache Tomcat
+- Servidor de Aplicação: Spring Boot
 - JPA: Conexão com banco de dados usando JPA
 
 ## 🎯 Objetivo do Software
@@ -21,3 +21,15 @@ Permitir a visualização, cadastro e busca de livros de forma prática e organi
 
 ## 👨‍💻 Time de Desenvolvedores
 - Guilherme de Carvalho Gois
+
+## 🔴 Adendos importantes
+- O servidor Spring Boot roda na porta 8081.
+- O programa tenta inicializar o banco de dados com o usuário registrado nas variáveis do sistema.
+- Caso ele não exista, é necessário ajustar o usuário e senha em src/main/resources/application.properties.
+- **Exemplo:**
+    ```properties
+    spring.datasource.username=root
+    spring.datasource.password=0000
+    ```
+- O banco de dados é criado automaticamente caso não exista.
+- O projeto acompanha o arquivo "data.sql", que cria e popula a tabela livros ao iniciar (caso não exista e não esteja populada).
